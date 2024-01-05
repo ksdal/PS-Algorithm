@@ -16,7 +16,6 @@ class Solution {
         
         
         for(int item : nums_list) {
-            System.out.println("item : " + item);
             for(int i = 2; i <= item; i++){
                 if(item == i){
                     answer++;
